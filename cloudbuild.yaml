@@ -1,6 +1,6 @@
 steps:
   # Pull the Docker image from Docker Hub
-  - name: 'gcr.io/cloud-builders/docker'
+  - name: 'gcr.io/cloud-builders/docker' # your docker image dir
     args: ['pull', '${_DOCKER_IMAGE}']
   
   # Tag the image for Google Container Registry
